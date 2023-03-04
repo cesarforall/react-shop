@@ -1,0 +1,27 @@
+{
+  "name": "react-shop",
+  "version": "1.0.0",
+  "description": "Online shop made with ReactJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesarforall/react-shop.git"
+  },
+  "keywords": [
+    "react",
+    "javascript"
+  ],
+  "author": "Cesar Almeida <cesaralmeida89@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cesarforall/react-shop/issues"
+  },
+  "homepage": "https://github.com/cesarforall/react-shop#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
