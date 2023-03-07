@@ -28,7 +28,8 @@ module.exports = {
 				},
 			},
 			{
-				test: /\.s[ac]ss$/i,
+				// test: /\.s[ac]ss$/i,
+				test: /\.(css|scss)$/,
 				use: ['style-loader', 'css-loader', 'sass-loader'],
 			},
 		],
