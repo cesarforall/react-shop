@@ -12,6 +12,12 @@ module.exports = {
 	},
 	resolve: {
 		extensions: ['.js', '.jsx'],
+		alias: {
+			icons: path.resolve(__dirname, 'src/assets/icons/'),
+			logos: path.resolve(__dirname, 'src/assets/logos/'),
+			components: path.resolve(__dirname, 'src/components/'),
+			styles: path.resolve(__dirname, 'src/styles/')
+		}
 	},
 	module: {
 		rules: [
@@ -33,6 +39,10 @@ module.exports = {
 				test: /\.(css|scss)$/,
 				use: ['style-loader', 'css-loader', 'sass-loader'],
 			},
+			{
+				test: /\.(png|svg|jpg|gif)$/,
+				type: 'asset'
+			}
 		],
 	},
 	plugins: [
